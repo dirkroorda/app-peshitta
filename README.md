@@ -1,4 +1,4 @@
-![logo](tutorial/images/logo.png)
+![logo](code/static/logo.png)
 
 # Peshitta
 
@@ -8,6 +8,8 @@ for working with the
 [Peshitta](https://github.com/ETCBC/peshitta) corpus: the Syriac Old Testament.
 
 Get started with the
-[tutorial](https://nbviewer.jupyter.org/github/annotation/app-peshitta/blob/master/tutorial/start.ipynb).
+[tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/peshitta/start.ipynb).
 
 It offers this [API](https://annotation.github.io/text-fabric/Api/App/).
+
+![shot](images/shot.png)
