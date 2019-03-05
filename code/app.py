@@ -144,6 +144,7 @@ class TfApp(object):
     L = api.L
     T = api.T
     otypeRank = api.otypeRank
+    isHtml = options.get('fmt', None) in app.textFormats
 
     bigType = False
     if nType in SECTION:
@@ -198,7 +199,8 @@ class TfApp(object):
       featurePart = ''
       occs = ''
       if nType == slotType:
-        text = htmlEsc(T.text([n], fmt=d.fmt))
+        text = T.text([n], fmt=d.fmt)
+        text = text if isHtml else htmlEsc(text)
         tClass = 'sy' if d.fmt is None or '-orig-' in d.fmt else 'tr'
         heading = f'<div class="{tClass}">{text}</div>'
         featurePart = getFeatures(
