@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/161639441.svg)](https://zenodo.org/badge/latestdoi/161639441)
 
+[![sha](sha.png) Software Heritage Archive](https://archive.softwareheritage.org/browse/origin/https://github.com/annotation/app-peshitta/)
+
 # Peshitta
 
 This is a
