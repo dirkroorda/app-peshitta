@@ -1,5 +1,7 @@
 ![logo](code/static/logo.png)
 
+[![DOI](https://zenodo.org/badge/161639441.svg)](https://zenodo.org/badge/latestdoi/161639441)
+
 # Peshitta
 
 This is a
