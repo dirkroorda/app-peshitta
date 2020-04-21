@@ -56,6 +56,10 @@ SECTION_SEP2 = ":"
 WRITING = "syc"
 WRITING_DIR = "rtl"
 
+FONT_NAME = "Estrangelo Edessa"
+FONT = "SyrCOMEdessa.otf"
+FONTW = "SyrCOMEdessa.woff"
+
 TEXT_FORMATS = {}
 
 BROWSE_NAV_LEVEL = 2
@@ -71,20 +75,31 @@ CHILD_TYPE = dict(book="chapter", chapter="verse", verse="word")
 
 SUPER_TYPE = None
 
-PLAIN_TYPES = None
-
-PRETTY_TYPES = dict(
-    book=("{book}", "", ""),
-    chapter=("{chapter}", "", ""),
-    verse=("{verse}", "", ""),
-    word=(True, "", ""),
-)
-
-LEVELS = dict(
-    book=dict(level=3, flow="col", wrap=False, stretch=False),
-    chapter=dict(level=3, flow="col", wrap=False, strectch=False),
-    verse=dict(level=2, flow="col", wrap=False, strectch=False),
-    word=dict(level=0, flow="col", wrap=False, strectch=False),
+TYPE_DISPLAY = dict(
+    book=dict(
+        template="{book}",
+        bareFeatures="",
+        features="",
+        level=3, flow="col", wrap=False, stretch=False,
+    ),
+    chapter=dict(
+        template="{chapter}",
+        bareFeatures="",
+        features="",
+        level=3, flow="col", wrap=False, strectch=False,
+    ),
+    verse=dict(
+        template="{verse}",
+        bareFeatures="",
+        features="",
+        level=2, flow="row", wrap=True, strectch=True,
+    ),
+    word=dict(
+        template=True,
+        bareFeatures="",
+        features="",
+        level=0, flow="col", wrap=False, strectch=False,
+    ),
 )
 
 INTERFACE_DEFAULTS = dict()
