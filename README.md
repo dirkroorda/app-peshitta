@@ -7,7 +7,7 @@
 # Peshitta
 
 This is a
-[Text-Fabric](https://githubv.com/annotation/text-fabric) app
+[Text-Fabric](https://github.com/annotation/text-fabric) app
 for working with the
 [Peshitta](https://github.com/ETCBC/peshitta) corpus: the Syriac Old Testament.
 
