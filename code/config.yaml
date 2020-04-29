@@ -7,7 +7,7 @@ dataDisplay:
   - NA
 docs:
   docPage: transcription
-  featureBase: '{docBase}/transcription-{version}{docExt}#{feature}'
+  featureBase: '{docBase}/transcription-{version}{docExt}#<feature>'
   featurePage: ''
 interfaceDefaults: {}
 provenanceSpec:
