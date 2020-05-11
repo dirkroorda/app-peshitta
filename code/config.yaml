@@ -16,8 +16,9 @@ provenanceSpec:
   org: etcbc
   repo: peshitta
   version: '0.1'
+  webLang: en
   webBase: '{urlGh}/{org}/{repo}/blob/master/source'
   webHint: Show this document in the Peshitta repository
-  webUrl: /{version}/<1>
+  webUrl: '{webBase}/{version}/<1>'
 typeDisplay: {}
 writing: syc
