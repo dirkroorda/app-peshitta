@@ -15,7 +15,7 @@ provenanceSpec:
   doi: 10.5281/zenodo.1463675
   org: etcbc
   repo: peshitta
-  version: '0.1'
+  version: '0.2'
   webLang: en
   webBase: '{urlGh}/{org}/{repo}/blob/master/source'
   webHint: Show this document in the Peshitta repository
